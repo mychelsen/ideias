@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site pessoal de Julian, especializado em marketing, fotografia e empreendedorismo.">
+    <meta name="keywords" content="marketing, fotografia, empreendedorismo, SEO, portfólio">
+    <meta name="author" content="Julian">
+    <title>Julian - Marketing e Fotografia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #000;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #333 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .section {
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            color: #fff;
+            background: #333;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background: #555;
+        }
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Julian</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Bem-vindo ao Meu Site Pessoal</h1>
+            <p>Especializado em Marketing, Fotografia e Empreendedorismo</p>
+        </div>
+    </section>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou Julian, especialista em marketing e fotógrafo com uma paixão por ajudar empresas a crescerem. Tenho uma vasta experiência em campanhas de marketing digital e produção de conteúdo visual.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <p>Aqui estão alguns exemplos dos meus trabalhos anteriores:</p>
+            <div class="gallery">
+                <!-- Exemplos de trabalhos podem ser adicionados aqui -->
+                <img src="exemplo1.jpg" alt="Trabalho 1" class="form-control">
+                <img src="exemplo2.jpg" alt="Trabalho 2" class="form-control">
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="section">
+        <div class="container">
+            <h2>Blog</h2>
+            <p>Leia meus artigos mais recentes sobre marketing, empreendedorismo e fotografia:</p>
+            <div class="blog-posts">
+                <!-- Artigos do blog podem ser adicionados aqui -->
+                <article>
+                    <h3>Como Melhorar sua Estratégia de Marketing Digital</h3>
+                    <p>Publicado em 14 de maio de 2024</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <a href="#" class="button">Leia mais</a>
+                </article>
+                <article>
+                    <h3>Os Segredos da Fotografia Profissional</h3>
+                    <p>Publicado em 10 de maio de 2024</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <a href="#" class="button">Leia mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo através do formulário abaixo:</p>
+            <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Seu Nome" class="form-control">
+                <input type="email" name="email" placeholder="Seu Email" class="form-control">
+                <textarea name="message" placeholder="Sua Mensagem" class="form-control"></textarea>
+                <button type="submit" class="button">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Julian &copy; 2024</p>
+    </footer>
+</body>
+</html>
